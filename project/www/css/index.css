@@ -69,6 +69,25 @@ h1 {
     padding:0px;
     text-align:center;
 }
+.tabs .tab {
+    width: auto;
+    min-width: 60px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabs .tab a {
+    font-size: 14px;
+    white-space: normal;
+    line-height: 1.2;
+}
+
+.tabs {
+    overflow-y: auto;
+}
+
 
 .event {
     border-radius:4px;
